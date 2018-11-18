@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
   selector: 'apm-root',
   template: `<div>
     <h1>{{pageTitle}}</h1>
-    <div>My first component</div>
+    <apm-products></apm-products>
   </div>`
 })
 export class AppComponent {
